@@ -23,4 +23,11 @@ public class Inventario {
     public List<Elemento> ricercaPerAutore(String autore) {
         return catalogo.stream().filter(ricercaAutore -> ricercaAutore instanceof Libri).filter(libro -> ((Libri) libro).getAutore().equals(autore)).toList();
     }
+
+    @Override
+    public String toString() {
+        return "Inventario{" +
+                "catalogo=" + catalogo +
+                '}';
+    }
 }

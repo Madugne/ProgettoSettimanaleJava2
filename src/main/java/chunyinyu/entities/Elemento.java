@@ -28,5 +28,15 @@ public class Elemento {
     public int getNumeroPagine() {
         return numeroPagine;
     }
+
+    @Override
+    public String toString() {
+        return "Elemento{" +
+                "isbn='" + isbn + '\'' +
+                ", titolo='" + titolo + '\'' +
+                ", annoPubblicazione=" + annoPubblicazione +
+                ", numeroPagine=" + numeroPagine +
+                '}';
+    }
 }
 
