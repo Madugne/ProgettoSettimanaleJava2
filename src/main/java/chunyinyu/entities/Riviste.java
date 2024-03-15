@@ -12,4 +12,14 @@ public class Riviste extends Elemento{
         return tipoRiviste;
     }
 
+    @Override
+    public String toString() {
+        return "Riviste{" +
+                "tipoRiviste=" + tipoRiviste +
+                ", isbn='" + super.getIsbn() + '\'' +
+                ", titolo='" + super.getTitolo() + '\'' +
+                ", annoPubblicazione=" + super.getAnnoPubblicazione() +
+                ", numeroPagine=" + super.getNumeroPagine() +
+                '}';
+    }
 }

@@ -18,4 +18,16 @@ public class Libri extends Elemento{
     public String getGenere() {
         return genere;
     }
+
+    @Override
+    public String toString() {
+        return "Libri{" +
+                "autore='" + autore + '\'' +
+                ", genere='" + genere + '\'' +
+                ", isbn='" + super.getIsbn() + '\'' +
+                ", titolo='" + super.getTitolo() + '\'' +
+                ", annoPubblicazione=" + super.getAnnoPubblicazione() +
+                ", numeroPagine=" + super.getNumeroPagine() +
+                '}';
+    }
 }
