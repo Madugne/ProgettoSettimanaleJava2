@@ -1,0 +1,9 @@
+chunyinyu.entities.Libri,ISBN1,DragonBall,1984,500,Akira Toriyama,Shonen
+chunyinyu.entities.Libri,ISBN2,DragonBallZ,1984,550,Akira Toriyama,Shonen
+chunyinyu.entities.Libri,ISBN3,GhostInTheShell,1992,100,Masamune Shirow,Scifi
+chunyinyu.entities.Libri,ISBN4,GhostInTheShellVol2,2001,100,Masamune Shirow,Scifi
+chunyinyu.entities.Libri,ISBN5,Akira,1982,300,Katsuhiro Otomo,thriller
+chunyinyu.entities.Riviste,ISBN6,ShonenJump,2000,20
+chunyinyu.entities.Riviste,ISBN7,ShonenJumpSuper,2001,30
+chunyinyu.entities.Riviste,ISBN8,ShonenJumpDeluxe,2002,40
+chunyinyu.entities.Riviste,ISBN9,ShonenJump2,2003,50

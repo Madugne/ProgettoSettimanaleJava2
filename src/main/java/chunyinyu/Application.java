@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class Application {
 
+    private static final String FILE_NAME = "INVENTARIO.txt";
     public static void main(String[] args) {
         Inventario inventario = new Inventario();
         Scanner scanner = new Scanner(System.in);
@@ -140,11 +141,12 @@ public class Application {
                     break;
 
                 case 6:
+                    inventario.salvaSuDisco("src/output.txt");
                     break;
 
                 case 7:
+                    inventario.caricaDaDisco("src/output.txt");
                     break;
-
                 case 8:
                     System.out.println("Programma terminato");
                     break;
@@ -154,5 +156,6 @@ public class Application {
                     break;
             }
         }
+        scanner.close();
     }
 }
